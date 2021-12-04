@@ -1,0 +1,30 @@
+.servises-bg{
+    height: 500px;
+    background-image: url(../img/gallery/xhero3.png.pagespeed.ic.vMsGn1S81U.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.servises-bg::before{
+        position: absolute;
+        content: "";
+        background-color: rgba(35,72,33,0.3);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        background-repeat: no-repeat;
+}
+.servises-bg h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+    z-index: 1;
+    margin-top: 241px;
+    margin-left: 7%;
+    position: absolute;
+}

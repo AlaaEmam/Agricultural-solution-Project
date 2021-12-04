@@ -1,0 +1,120 @@
+p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.events{
+    margin-bottom: 300px;
+}
+.card{
+    border: none;
+    margin-bottom: 100px;
+}
+.card p{
+    padding-top: 12px;
+}
+.blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+.blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+.blockquote p {
+    display: inline;
+}
+.bar-like{
+    border-top: 1px solid rgb(0, 0, 0 ,0.125);
+    display: inline-block;
+    padding: 10px;
+}
+.bar-like .social-icon {
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 527px;
+    margin-top: -36px;
+}
+.bar-like .bar-p i{
+    font-size: 18px;
+    padding: 5px;
+    color: #ff0000;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.bar-like .social-icon a{
+    font-size: 20px;
+    padding: 5px;
+    color: #999;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.bar-like .social-icon a:hover{
+    color: #329d23;
+}
+/* ------------ */
+.media-comment{
+    padding: 54px 30px;
+    background: #fbf9ff;
+    margin-top: -29px;
+}
+.media-comment .media-body{
+    width: 88%;
+    margin-left: 118px;
+    margin-top: -82px;
+}
+.comment-area{
+    background: transparent;
+    border-top: 1px solid #eee;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.comment-area .comment-list{
+    padding-bottom: 28px;
+ 
+}
+.media-body-c{
+    width: 88%;
+    margin-left: 118px;
+    margin-top: -82px;
+}
+.media-body-c .line{
+    display: flex;
+    justify-content: start;
+}
+.media-body-c .line h5{
+    padding-top: 17px !important;
+} 
+.media-body-c  p{
+    color: rgb(0, 0, 0,0.5) !important;
+}
+.media-body-c .line .date-c{
+    margin-left: 10px;
+    color: rgb(0, 0, 0,0.5) !important;
+}
+.media-body-c  .reply{
+    margin-left: 365px;
+    text-transform: uppercase;
+}
+.media-body-c .reply:hover{
+    color: #329d23 !important;
+    cursor: pointer;
+}
+.form-comment{
+    background: transparent;
+    border-top: 1px solid #eee;
+    padding: 50px 0;
+}
